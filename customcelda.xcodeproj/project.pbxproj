@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C86192DC1BA16AAF00679A5F /* Operacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86192DB1BA16AAF00679A5F /* Operacion.swift */; };
 		C8ECFBCD1BA162F100AC6E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ECFBCC1BA162F100AC6E65 /* AppDelegate.swift */; };
 		C8ECFBCF1BA162F100AC6E65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ECFBCE1BA162F100AC6E65 /* ViewController.swift */; };
 		C8ECFBD21BA162F100AC6E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8ECFBD01BA162F100AC6E65 /* Main.storyboard */; };
 		C8ECFBD41BA162F100AC6E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8ECFBD31BA162F100AC6E65 /* Images.xcassets */; };
 		C8ECFBD71BA162F100AC6E65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ECFBD51BA162F100AC6E65 /* LaunchScreen.xib */; };
 		C8ECFBE31BA162F200AC6E65 /* customceldaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ECFBE21BA162F200AC6E65 /* customceldaTests.swift */; };
+		C8ECFBED1BA166AC00AC6E65 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8ECFBEC1BA166AC00AC6E65 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C86192DB1BA16AAF00679A5F /* Operacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operacion.swift; sourceTree = "<group>"; };
 		C8ECFBC71BA162F000AC6E65 /* customcelda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customcelda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ECFBCB1BA162F000AC6E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8ECFBCC1BA162F100AC6E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		C8ECFBDC1BA162F200AC6E65 /* customceldaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customceldaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ECFBE11BA162F200AC6E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8ECFBE21BA162F200AC6E65 /* customceldaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customceldaTests.swift; sourceTree = "<group>"; };
+		C8ECFBEC1BA166AC00AC6E65 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomTableViewCell.xib; path = ../CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		C8ECFBC91BA162F000AC6E65 /* customcelda */ = {
 			isa = PBXGroup;
 			children = (
+				C8ECFBEC1BA166AC00AC6E65 /* CustomTableViewCell.xib */,
 				C8ECFBCC1BA162F100AC6E65 /* AppDelegate.swift */,
 				C8ECFBCE1BA162F100AC6E65 /* ViewController.swift */,
 				C8ECFBD01BA162F100AC6E65 /* Main.storyboard */,
 				C8ECFBD31BA162F100AC6E65 /* Images.xcassets */,
 				C8ECFBD51BA162F100AC6E65 /* LaunchScreen.xib */,
 				C8ECFBCA1BA162F000AC6E65 /* Supporting Files */,
+				C86192DB1BA16AAF00679A5F /* Operacion.swift */,
 			);
 			path = customcelda;
 			sourceTree = "<group>";
@@ -194,6 +200,7 @@
 			files = (
 				C8ECFBD21BA162F100AC6E65 /* Main.storyboard in Resources */,
 				C8ECFBD71BA162F100AC6E65 /* LaunchScreen.xib in Resources */,
+				C8ECFBED1BA166AC00AC6E65 /* CustomTableViewCell.xib in Resources */,
 				C8ECFBD41BA162F100AC6E65 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86192DC1BA16AAF00679A5F /* Operacion.swift in Sources */,
 				C8ECFBCF1BA162F100AC6E65 /* ViewController.swift in Sources */,
 				C8ECFBCD1BA162F100AC6E65 /* AppDelegate.swift in Sources */,
 			);
@@ -341,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = customcelda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = customcelda/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +419,7 @@
 				C8ECFBE81BA162F200AC6E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8ECFBE91BA162F200AC6E65 /* Build configuration list for PBXNativeTarget "customceldaTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				C8ECFBEB1BA162F200AC6E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
