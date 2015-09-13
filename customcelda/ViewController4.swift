@@ -1,5 +1,5 @@
 //
-//  ViewController3.swift
+//  ViewController4.swift
 //  customcelda
 //
 //  Created by Manuel Zegarra on 13/09/15.
@@ -8,13 +8,8 @@
 
 import UIKit
 
-class ViewController3: UIViewController {
+class ViewController4: UIViewController {
 
-    @IBAction func btnClose(sender: UIButton) {
-        self.dismissViewControllerAnimated(true, completion: nil)
-    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -26,15 +21,10 @@ class ViewController3: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    
-    @IBAction func btnSiguiente(sender: UIButton) {
-
-                self.performSegueWithIdentifier("segueTest", sender: sender)
-        
-        
-        
+    @IBAction func btnRegresar(sender: UIButton) {
+          self.dismissViewControllerAnimated(true, completion: nil)
     }
+
     /*
     // MARK: - Navigation
 

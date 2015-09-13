@@ -43,52 +43,20 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         var nib = UINib(nibName: "CustomTableViewCell", bundle: nil)
         tableView.registerNib(nib, forCellReuseIdentifier: "customCell")
         
-        var operacion1 = Operacion();
-        operacion1.codigo="001";
-        operacion1.descripcion="descripcion 001";
-        operacion1.espacios=6;
-        operaciones.append(operacion1)
+        
+        
+        var operacion7:Operacion?;
+        
+        
+        for i in 1...199{
+            operacion7 = Operacion();
+            operacion7!.codigo=String(format: "%02d", i);
+            operacion7!.descripcion="descripcion 007";
+            operacion7!.espacios=101;
+            operaciones.append(operacion7!)
 
-        var operacion2 = Operacion();
-        operacion2.codigo="002";
-        operacion2.descripcion="descripcion 002";
-        operacion2.espacios=8;
-        operaciones.append(operacion2)
-        
-        var operacion3 = Operacion();
-        operacion3.codigo="003";
-        operacion3.descripcion="descripcion 003";
-        operacion3.espacios=81;
-        operaciones.append(operacion3)
-        
-        
-        var operacion4 = Operacion();
-        operacion4.codigo="004";
-        operacion4.descripcion="descripcion 003";
-        operacion4.espacios=120;
-        operaciones.append(operacion4)
-        
-        
-        var operacion5 = Operacion();
-        operacion5.codigo="005";
-        operacion5.descripcion="descripcion 005";
-        operacion5.espacios=10;
-        operaciones.append(operacion5)
-        
-        
-        
-        var operacion6 = Operacion();
-        operacion6.codigo="006";
-        operacion6.descripcion="descripcion 006";
-        operacion6.espacios=101;
-        operaciones.append(operacion6)
-        
-        
-        var operacion7 = Operacion();
-        operacion7.codigo="007";
-        operacion7.descripcion="descripcion 007";
-        operacion7.espacios=101;
-        operaciones.append(operacion7)
+            
+        }
         
     }
 
