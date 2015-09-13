@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Demo_1"; ObjectID = "3z0-oy-aP8"; */
+"3z0-oy-aP8.text" = "Demo_1_es";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BVq-PU-4MP"; */
+"BVq-PU-4MP.normalTitle" = "Button_es";
+
+/* Class = "UILabel"; text = "Demo_2"; ObjectID = "EGI-4Z-3j1"; */
+"EGI-4Z-3j1.text" = "Demo_2_es";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "SFH-Jg-v4v"; */
+"SFH-Jg-v4v.placeholder" = "Email_es";
+
+/* Class = "UINavigationItem"; title = "Seleccionar opción"; ObjectID = "cuR-HY-bkM"; */
+"cuR-HY-bkM.title" = "Seleccionar opción_es";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eCY-WI-nkC"; */
+"eCY-WI-nkC.normalTitle" = "Button_es";
+
+/* Class = "UILabel"; text = "Demo_3"; ObjectID = "iIF-ne-2RT"; */
+"iIF-ne-2RT.text" = "Demo_3_es";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "nrN-Am-66Q"; */
+"nrN-Am-66Q.normalTitle" = "Button_es";
+
+/* Class = "UIButton"; normalTitle = "Regresar"; ObjectID = "qe1-qc-pot"; */
+"qe1-qc-pot.normalTitle" = "Regresar_es";
