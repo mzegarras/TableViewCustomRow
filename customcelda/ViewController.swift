@@ -127,7 +127,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     //when setting and text view, you probably want a quite big table view cell so you have to do the following
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if indexPath.section == 0 {
-            return 79
+            return 60
         }
         return 60 //the height of your table view cell, the default value is 44
     }
