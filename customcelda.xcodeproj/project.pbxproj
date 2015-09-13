@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C86192DC1BA16AAF00679A5F /* Operacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86192DB1BA16AAF00679A5F /* Operacion.swift */; };
+		C8EAB4CF1BA5503000C958F2 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EAB4CE1BA5503000C958F2 /* ViewController2.swift */; };
+		C8EAB4D11BA5505500C958F2 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EAB4D01BA5505500C958F2 /* ViewController3.swift */; };
 		C8ECFBCD1BA162F100AC6E65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ECFBCC1BA162F100AC6E65 /* AppDelegate.swift */; };
 		C8ECFBCF1BA162F100AC6E65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8ECFBCE1BA162F100AC6E65 /* ViewController.swift */; };
 		C8ECFBD21BA162F100AC6E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8ECFBD01BA162F100AC6E65 /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		C86192DB1BA16AAF00679A5F /* Operacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operacion.swift; sourceTree = "<group>"; };
+		C8EAB4CE1BA5503000C958F2 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C8EAB4D01BA5505500C958F2 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		C8ECFBC71BA162F000AC6E65 /* customcelda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customcelda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8ECFBCB1BA162F000AC6E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8ECFBCC1BA162F100AC6E65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 				C8ECFBD51BA162F100AC6E65 /* LaunchScreen.xib */,
 				C8ECFBCA1BA162F000AC6E65 /* Supporting Files */,
 				C86192DB1BA16AAF00679A5F /* Operacion.swift */,
+				C8EAB4CE1BA5503000C958F2 /* ViewController2.swift */,
+				C8EAB4D01BA5505500C958F2 /* ViewController3.swift */,
 			);
 			path = customcelda;
 			sourceTree = "<group>";
@@ -219,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8EAB4D11BA5505500C958F2 /* ViewController3.swift in Sources */,
 				C86192DC1BA16AAF00679A5F /* Operacion.swift in Sources */,
+				C8EAB4CF1BA5503000C958F2 /* ViewController2.swift in Sources */,
 				C8ECFBCF1BA162F100AC6E65 /* ViewController.swift in Sources */,
 				C8ECFBCD1BA162F100AC6E65 /* AppDelegate.swift in Sources */,
 			);
@@ -349,9 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = customcelda/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,9 +369,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = customcelda/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

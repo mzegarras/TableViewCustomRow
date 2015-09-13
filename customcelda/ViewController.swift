@@ -83,6 +83,13 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         operacion6.espacios=101;
         operaciones.append(operacion6)
         
+        
+        var operacion7 = Operacion();
+        operacion7.codigo="007";
+        operacion7.descripcion="descripcion 007";
+        operacion7.espacios=101;
+        operaciones.append(operacion7)
+        
     }
 
   
@@ -107,12 +114,20 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         println("renglon \(renglon)")
         println("seccion \(section)")
         
+        
+        if renglon%2 == 0{
+            self.performSegueWithIdentifier("sgUno", sender:renglon )
+        }else{
+            self.performSegueWithIdentifier("sgDos", sender:renglon )
+        }
+        
+        
     }
     
     //when setting and text view, you probably want a quite big table view cell so you have to do the following
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if indexPath.section == 0 {
-            return 120
+            return 79
         }
         return 60 //the height of your table view cell, the default value is 44
     }
